@@ -6,8 +6,8 @@ stealTools.export({
 	},
 	options: {
 		verbose: true,
-		// sourceMaps: true,
-		// sourceMapsContent: true
+		sourceMaps: true,
+		sourceMapsContent: true
 	},
 	outputs: {
 		"+cjs": {},

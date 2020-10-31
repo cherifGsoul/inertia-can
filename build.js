@@ -12,13 +12,12 @@ stealTools.export({
 	outputs: {
 		"+cjs": {},
 		"+amd": {},
-		"+global-js": {},
-		'+global-css': {}
+		"+global-js": {}
 	}
 }).catch(function (e) {
 
 	setTimeout(function () {
-		throw e;
+		console.log(e);
 	}, 1);
 
 });

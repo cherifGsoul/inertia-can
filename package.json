@@ -11,8 +11,6 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.12.3",
-    "@babel/standalone": "^7.12.4",
     "@inertiajs/inertia": "^0.6.0",
     "can": "^6.5.0",
     "eslint": "^7.12.1",
@@ -30,15 +28,11 @@
     },
     "babelOptions": {
       "plugins": [
-        "transform-class-properties",
-        "syntax-async-functions"
+        "transform-class-properties"
       ]
     },
     "plugins": [
       "can"
     ]
-  },
-  "dependencies": {
-    "regenerator-runtime": "^0.13.7"
   }
 }

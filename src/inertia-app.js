@@ -23,8 +23,8 @@ export default class InertiaApp extends StacheElement {
     }
 
     connected() {
-        const updateComponent = (newVal) => {
-            store.component.updateDeep(newVal);
+        const updateComponent = (page) => {
+            store.component.updateDeep(page.props);
         };
 
         canReflect.onKeyValue(store, 'page', updateComponent);

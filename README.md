@@ -205,3 +205,8 @@ the following properties are available for `inertia-link`:
 `classname`: type: string
 
 basically, `inertia-link` is a wrapper around [inertia link](https://inertiajs.com/links)
+
+
+## License
+
+[MIT License](LICENSE).

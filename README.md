@@ -22,6 +22,9 @@ Install inertiajs and canjs adapter using npm or yarn:
 
 ```shell
 $ npm install @inertiajs/inertia can inertia-can
+```
+
+```shell
 $ yarn add @inertiajs/inertia can inertia-can
 ```
 
@@ -75,7 +78,7 @@ to make a [presistent layout](https://inertiajs.com/pages#persistent-layouts):
 
 ```js
 import { StacheElement } from "can";
-import { store } from '@/inertia-can';
+import { store } from 'inertia-can';
 
 class Layout extends StacheElement {
   static view = `
@@ -165,7 +168,7 @@ Links are created using `<inertia-link>` custom element:
 
 ```js
 import { StacheElement } from 'can';
-import link from `inertia-can`;
+import { Link } from 'inertia-can';
 
 class MyPage extends satcheElement {
     static view = `

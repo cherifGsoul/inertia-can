@@ -3,9 +3,9 @@
 The CanJS adapter for inertia.js
 
 ## Introduction:
-Before using this library, is important to know [what is Inertia.js](), what is it for and how it works.
+Before using this library, is important to know [what is Inertia.js](https://inertiajs.com/#top), [what is it for](https://inertiajs.com/who-is-it-for) and [how it works](https://inertiajs.com/how-it-works), in the [official Inertia.js website](https://inertiajs.com/)
 
-Also, is very important to know:
+Also, from the official [CanJS](https://canjs.com/) wwebsite, is very important to know:
 - [What is CanJS](https://canjs.com/doc/about.html)
 - [Setting up CanJS](https://canjs.com/doc/guides/setup.html)
 - CanJS [Observables](https://canjs.com/doc/api.html#Observables)

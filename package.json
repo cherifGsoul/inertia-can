@@ -13,7 +13,7 @@
     "release:patch": "npm version patch && npm publish",
     "release:minor": "npm version minor && npm publish",
     "release:major": "npm version major && npm publish",
-    "build": "node run build.js"
+    "build": "node build.js"
   },
   "contributors": [
     "Cherif BOUCHELAGHEM <cherif.bouchelaghem@gmail.com>"

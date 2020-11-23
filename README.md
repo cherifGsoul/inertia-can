@@ -16,16 +16,16 @@ Also, is very important to know:
 - [`can-stache-portal`](https://canjs.com/doc/can-stache.portal.html)
 - [Passing custom templates to custom elements](https://canjs.com/doc/can-stache-element.html#Passingtemplates_customizinglayout_)
 
-## installation:
+## Installation:
 
 Install inertiajs and canjs adapter using npm or yarn:
 
 ```shell
-$ npm install @inertiajs/inertia inertia-can
-$ yarn add @inertiajs/inertia inertia-can
+$ npm install @inertiajs/inertia can inertia-can
+$ yarn add @inertiajs/inertia can inertia-can
 ```
 
-## application initialization:
+## Application initialization:
 
 `inertia-app` is a [`StacheElement`](https://canjs.com/doc/can-stache-element.html) custom element, needs to be intialized in the main js file of the application like the following:
 
@@ -159,9 +159,9 @@ customElements.define('app-dashboard', Dashboard);
 
 ```
 
-## links:
+## Links:
 
-links are created using `<inertia-link>` custom element:
+Links are created using `<inertia-link>` custom element:
 
 ```js
 import { StacheElement } from 'can';
@@ -180,9 +180,9 @@ class MyPage extends satcheElement {
 customElements.define('my-page', Mypage);
 ```
 
-notice the `can-template` tag is used to passe [custom templates](https://canjs.com/doc/can-stache-element.html#passingtemplates_customizinglayout_) to `StacheElement`.
+Notice the `can-template` tag is used to passe [custom templates](https://canjs.com/doc/can-stache-element.html#passingtemplates_customizinglayout_) to `StacheElement`.
 
-the following properties are available for `inertia-link`:
+The following properties are available for `inertia-link`:
 
 `data`: type: deepobserble, required: false
 

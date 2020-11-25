@@ -33,17 +33,17 @@ $ yarn add @inertiajs/inertia can inertia-can
 `inertia-app` is a [`StacheElement`](https://canjs.com/doc/can-stache-element.html) custom element, needs to be intialized in the main js file of the application like the following:
 
 ```js
-import { inertiaapp } from "inertia-can";
+import { InertiaApp } from "inertia-can";
 
-const app = new inertiaapp().initialize({
+const app = new InertiaApp().initialize({
   initialpage: json.parse(target.dataset.page),
   resolvecomponent: (name) =>
     import(`./pages/${name}`).then((module) => module.default),
 });
 
-let target = document.getelementbyid("app");
+let target = document.getElementById("app");
 app.initialize({ target });
-target.appendchild(app);
+target.appendChild(app);
 ```
 
 The code above will instantiated `inertia-app` custom and inserted it in the application root view html page.

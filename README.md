@@ -173,7 +173,7 @@ import { Link } from 'inertia-can';
 class MyPage extends satcheElement {
     static view = `
         <inertia-can href:raw='https://canjs.com/'>
-            <can-template name="linktemplate">
+            <can-template name="linkTemplate">
                 canjs website
             </can-template>
         </inertia-can>
